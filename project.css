@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fbfbfe;
+  color: #050315;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  width: 80%;
+  min-width: 960px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+header {
+  background-color: #1F7A63;
+  color: #FFFFFF;
+  height: 120px;
+  padding: 30px 20px 0 20px;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0.1em;
+}
+
+nav {
+  float: left;
+  width: 200px;
+  padding: 20px;
+  background-color: #CDEDE6;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+nav li {
+  padding-bottom: 6px;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  color: #1F7A63;
+}
+
+nav a:hover {
+  background-color: #6BAF92;
+}
+
+nav a.active {
+  background-color: #6BAF92;
+  color: #FFFFFF;
+}
+
+main {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+h2 {
+  color: #1F7A63;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h3 {
+  color: #1F7A63;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+footer {
+  clear: both;
+  background-color: #1F7A63;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+
+.hero {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.hero figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}
+
+
+
+
+.card-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: #F4FDFC;
+  border: 1px solid #CDEDE6;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 1;
+  min-width: 220px;
+}
+
+.card h4 {
+  margin-top: 0;
+  color: #1F7A63;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+
+.tagline {
+  margin: 6px 0 0 0;
+}
+
+
+.card h4 a,
+.card h4 a:visited,
+.card h4 a:active {
+  color: #1F7A63 !important;
+  text-decoration: none !important;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.card h4 a:hover {
+  color: #6BAF92 !important;
+  text-decoration: underline !important;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #1F7A63;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #CDEDE6;
+}
+
+.site-video {
+  width: 300px;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-top: 10px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+form {
+  background-color: #F4FDFC;
+  border: 1px solid #CDEDE6;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 520px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #CDEDE6;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+  width: auto;
+  background-color: #1F7A63;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #6BAF92;
+}
