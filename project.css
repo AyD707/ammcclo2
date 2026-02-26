@@ -52,15 +52,19 @@ nav a {
   text-decoration: none;
   display: block;
   padding: 8px;
-  color: #1F7A63;
+  color: #1E7364;
 }
 
 nav a:hover {
-  background-color: #6BAF92;
+  background-color: #1F7A63;
+  color: #FFFFFF;
+}
+nav a:hover:visited {
+  color: #FFFFFF;
 }
 
 nav a.active {
-  background-color: #6BAF92;
+  background-color: #1F7A63;
   color: #FFFFFF;
 }
 
@@ -153,7 +157,7 @@ footer a {
 }
 
 .card h4 a:hover {
-  color: #6BAF92 !important;
+  color: #1E7364 !important;
   text-decoration: underline !important;
 }
 
